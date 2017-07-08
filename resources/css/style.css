@@ -1,0 +1,157 @@
+html  {
+  font-size: 18px;
+  background-color: white;
+}
+
+body  {
+  font-family: Helvetica, sans-serif;;
+  line-height: 1.4em;
+}
+
+header  {
+  background-color: black;
+  color: white;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  padding: 12px 0 12px 0.5em;
+}
+
+header img  {
+  height: 1.5em;
+  padding-right:  15px;
+}
+
+h1, h4  {
+  font-weight: bold;
+}
+
+nav {
+  background-color: firebrick;
+  color: white;
+}
+
+nav ul  {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75em 0;
+  list-style: none;
+}
+
+li  {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+img {
+  border-style: none;
+}
+
+footer  {
+  background-color: black;
+  color: white;
+  margin-top: 4em;
+  padding: 5em 0;
+}
+
+.container  {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.main {
+  background-image: url("../images/moto.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25em;
+}
+
+.headline {
+  background-color: black;
+  color: white;
+  width: 20em;
+  padding: 2em 2em;
+  position: relative;
+  top: 9em;
+}
+
+.headline h1  {
+  font-size: 2em;
+  line-height: 1.2em;
+  margin: 0.25em 0;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+.products, .business-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 3em 0 0 0;
+}
+
+.product  {
+  width: 30%;
+}
+
+.product-image  {
+  border: 4px solid black;
+  padding: 2em 0;
+  height: 9em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-image img  {
+  max-width: 8em;
+}
+
+.description  {
+  display: block;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 0.5em;
+}
+
+.info {
+  width: 35%;
+}
+
+.info .title  {
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 1em 2em;
+}
+
+@media only screen and (max-width: 1024px)  {
+  body  {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 1024px)  {
+  nav ul  {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px)  {
+  .mobile-nav {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 1024px)  {
+  .product  {
+    width: 47%;
+  }
+}
